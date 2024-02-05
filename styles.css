@@ -216,7 +216,7 @@ transform: rotateY(180deg)
 }
 
 
-/* media Quey*/
+/* media positioning*/
 
 @media screen and (max-width : 40rem){
  .profile{
