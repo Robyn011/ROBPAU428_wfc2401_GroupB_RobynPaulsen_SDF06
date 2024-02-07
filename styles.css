@@ -151,7 +151,7 @@ cursor: pointer;
 
 }
 
-.gallery.item:hover,
+.gallery-item:hover,
 .gallery-item-info, 
 .gallery-item:focus,
 .gallery-item-info{
