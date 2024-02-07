@@ -1,15 +1,13 @@
-/* Base Styles */
+:root{
+    font-size : 10px;
 
-:root {
-    font-size: 10px;
-}
+
 
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
-
 body {
     font-family: "Open Sans", Arial, sans-serif;
     min-height: 100vh;
@@ -18,15 +16,25 @@ body {
     padding-bottom: 3rem;
 }
 
-img {
-    display : inline-block;
-    font: inherit;
+    
+img{
+display: block ;
+}
+    
+.container{
+   max-width : 93.5rem;
+   margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.btn{
+    display: innline-block,
+    font:inherit;
     background: none;
     border: none;
     color: inherit;
     padding: 0;
-    cursor: pointer;  
-
+    cursor: pointer;
 }
 
 .btn:focus{
@@ -43,9 +51,12 @@ img {
 
 }
 
+
 .profile{
     padding: 5rem 0;
 }
+
+
 .profile::after{
     content:"";
     display : black;
@@ -53,7 +64,8 @@ img {
 
 }
 
-.profile-img{
+
+.profile-image{
 float: left;
 width: calc(33.33- 1rem);
 display: flex;
@@ -67,16 +79,21 @@ margin-right : 3rem;
     border-radius: 50%;  /*making the image completly circular */
     
 }
-.profile-user-settings, .profile-stats,.profile-bio{
+
+.profile-user-settings, 
+.profile-stats,
+.profile-bio{
     float:left;
     width:calc(66.66% - 2rem)
 
 }
-
+   
 .profile-user-settiings{
     margin-top: 1.1rem;
     
 }
+
+
 .profile-user-name{
     display: inline-block;
     font-size: 3.2rem;
@@ -94,6 +111,8 @@ margin-right : 3rem;
 
 
 }
+
+
 
 .profile-setting-btn{
     font-size: 2rem;
@@ -382,16 +401,6 @@ flex-basis: 100%;
 
 
   }
-
-
-
-
-
-
-
-
-
-
 
 
 
