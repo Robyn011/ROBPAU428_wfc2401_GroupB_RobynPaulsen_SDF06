@@ -239,7 +239,7 @@ transform: rotateY(180deg)
     border-bottom-color: transparent;
     border-radius:50% ;
     margin : 0 auto;
-    animation: louder 500ms linear infinite ;
+    animation: louder 500ms alternate-reverse infinite ;
 }
 
 
@@ -343,7 +343,11 @@ flex-basis: 100%;
     display: block;
    } 
    /*loading animation*/
-  @keyframes louder {
+  @keyframes loader {
+
+    from {
+        transform: rotate(0deg);
+    }
    to {
     transform : rotate(360deg);
    }
