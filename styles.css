@@ -1,7 +1,6 @@
 :root{
     font-size : 10px;
-
-
+}
 
 *,
 *::before,
@@ -18,17 +17,17 @@ body {
 
     
 img{
-display: block ;
+    display: block ;
 }
     
 .container{
-   max-width : 93.5rem;
-   margin: 0 auto;
+    max-width : 93.5rem;
+    margin: 0 auto;
     padding: 0 2rem;
 }
 
 .btn{
-    display: innline-block,
+    display: inline-block;
     font:inherit;
     background: none;
     border: none;
@@ -162,6 +161,7 @@ margin-right : 3rem;
     margin : -1rem -1rem;
     padding-bottom: 3rem;
 
+
 }
 
 .gallery-item{
@@ -173,10 +173,8 @@ cursor: pointer;
 
 }
 
-.gallery-item:hover,
-.gallery-item-info, 
-.gallery-item:focus,
-.gallery-item-info{
+.gallery-item:hover .gallery-item-info, 
+.gallery-item:focus .gallery-item-info{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,20 +182,27 @@ cursor: pointer;
     top: 0;
     width:100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.7);
 
 
 
 }
 .gallery-item-info{
     display: none;
-
+    color: white;
+    font-size: 15px;
 }
 
 .gallery-items-info li{
-    display: inline-block;
+   /* display: inline-block;
     font-size: 1.7rem;
-    font-weight: 600;
+    font-weight: 600; */
+    margin: 10px;
+}
+
+.gallery-items-info ul{
+    display: flex;
+    list-style: none;
 }
 
 .gallery-item-likes{
@@ -379,7 +384,7 @@ flex-basis: 100%;
    .gallery-item,
    .gallery{
     width:auto;
-    margin:0;
+    margin:10px;
    }
         
 
