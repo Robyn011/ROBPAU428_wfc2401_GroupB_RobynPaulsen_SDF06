@@ -138,6 +138,7 @@ margin-right : 3rem;
     margin-right: 0;
 
 }
+    
 .profile-bio{
     font-size: 1.6rem;
     font-weight:400;
@@ -150,8 +151,9 @@ margin-right : 3rem;
 .profile-real-name,
 .profile-stat-count,
 .profile-edit-btn{
+    
  font-weight: 600;
-
+    
 }
 
 .gallery{
@@ -161,6 +163,7 @@ margin-right : 3rem;
     padding-bottom: 3rem;
 
 }
+
 .gallery-item{
 position: relative;
 flex: 1 0 22rem;
@@ -191,7 +194,7 @@ cursor: pointer;
 
 }
 
-.galleery-items-info li{
+.gallery-items-info li{
     display: inline-block;
     font-size: 1.7rem;
     font-weight: 600;
