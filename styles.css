@@ -239,10 +239,18 @@ transform: rotateY(180deg)
     border-bottom-color: transparent;
     border-radius:50% ;
     margin : 0 auto;
-    animation: louder 500ms alternate-reverse infinite ;
+    animation: rotateLoader 0.5s linear infinite ;
 }
 
-
+@keyframes rotateLoader {
+    from{
+        transform: rotate(0turn);
+    }
+   to {
+    transform : rotate(1turn);
+   }
+    
+  }
 /* media positioning*/
 
 @media screen and (max-width : 40rem){
@@ -343,16 +351,7 @@ flex-basis: 100%;
     display: block;
    } 
    /*loading animation*/
-  @keyframes loader {
 
-    from {
-        transform: rotate(0deg);
-    }
-   to {
-    transform : rotate(360deg);
-   }
-    
-  }
 
 
 
